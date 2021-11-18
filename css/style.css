@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+}
+.center {
+    align-items: center;
+}
+header {
+    color: white;
+    max-width: auto;
+    align-items: center;
+    background-image: url(../images/mobile/image-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row p {
+    font-weight: 600px;
+    font-size: xx-large;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* /*padding: 5px;* */
+}
+
+.row img {
+    padding-top: 30px;
+    height: 50px;
+}
+
+.text-large p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+    /*word-wrap: break-word;*/
+}
+
+.arrow {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.egg-section img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-section {
+    width: auto;
+    height: 100%;
+    background-color: white;
+    color: rgb(7, 7, 48);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.graphic-design {
+    background-image: url(../images/mobile/image-graphic-design.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.graphic-text {
+    color: rgb(7, 7, 48);
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+}
+
+.photography {
+    background-image: url(../images/mobile/image-photography.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.testimonials p {
+    color: rgb(7, 7, 48);
+    text-align: center;
+    padding: 30px;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.images img {
+    width: 48%;
+    height: 50%;
+}
+
+footer {
+    width: 100%;
+    justify-content: center;
+    color: rgb(7, 7, 48);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer-text p {
+    font-size: 20px;
+    padding: 25px;
+}
+
+.footer-row p {
+    font-weight: 600px;
+    font-size: xx-large;
+    padding: 25px;    
+}
+
+.footer-icons img {
+    padding: 10px;
+}
